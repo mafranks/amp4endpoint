@@ -17,19 +17,20 @@ Use Case: Host machine is wiped, new machine installs new AMP4EP connector. AMP4
 [For License Information click here.](./LICENSE)
 
 Authors: Max Wijnbladh and Chris Maxwell
+Python3 port: Matthew Franks
 
 ## Installation Guide
 Requirements: 
 
 - AMP Console Dashboard login details 
-- Python v2.7
+- Python v2.7 or Python v3.0+
 - AMP for Endpoints [API documentation v1](https://api-docs.amp.cisco.com/api_resources?api_host=api.eu.amp.cisco.com&api_version=v1)
  
 **Step 1:**
 Open a terminal and run the following:
 ```
-git clone https://github.com/victoriancode/amp4endpoint
-cd victoriancode/amp4endpoint
+git clone https://github.com/mafranks/amp4endpoint
+cd mafranks/amp4endpoint
 ```
  
 **Step 2:**
